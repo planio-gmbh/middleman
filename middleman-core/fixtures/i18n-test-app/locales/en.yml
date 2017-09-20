@@ -1,4 +1,10 @@
 ---
 en:
+  paths:
+    hello: "hello"
+    morning: "morning"
+    file: "default-name"
+
   greetings: "Howdy"
   hi: "Hello"
+  file_content: "default-name here"

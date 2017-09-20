@@ -32,6 +32,10 @@ Feature: i18n Preview
     Then I should see "Buenos días"
     When I go to "/es/una.html"
     Then I should see "Solamente una"
+    When I go to "/default-name.html"
+    Then I should see "default-name here"
+    When I go to "/es/default-name.html"
+    Then I should see "Esta default-name"
 
   Scenario: A template changes i18n during preview
     Given a fixture app "i18n-test-app"
